@@ -5,17 +5,17 @@
   --font-sans: "Inter", system-ui, sans-serif;
   --font-serif: "Playfair Display", serif;
 
-  --color-primary-50: #f7f8f5;
-  --color-primary-100: #ecefe8;
-  --color-primary-200: #d8ded0;
-  --color-primary-300: #b8c3a9;
-  --color-primary-400: #9aa882;
-  --color-primary-500: #7d8c5f;
-  --color-primary-600: #606e48;
-  --color-primary-700: #4c573a;
-  --color-primary-800: #3e4731;
-  --color-primary-900: #343b2b;
-  --color-primary-950: #1c2017;
+  --color-primary-50: #eef4ff;
+  --color-primary-100: #d9e6ff;
+  --color-primary-200: #bcd3ff;
+  --color-primary-300: #8eb6fc;
+  --color-primary-400: #5990f8;
+  --color-primary-500: #3b6df3;
+  --color-primary-600: #2551eb;
+  --color-primary-700: #1d3fd7;
+  --color-primary-800: #1d35ae;
+  --color-primary-900: #1e3289;
+  --color-primary-950: #172054;
 
   --color-accent-50: #fefbf3;
   --color-accent-100: #fcefd6;
@@ -93,7 +93,7 @@
 }
 
 @utility glass {
-  background: rgba(28, 32, 23, 0.7);
+  background: rgba(23, 32, 84, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
@@ -102,12 +102,12 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #1c2017;
+  background: #172054;
 }
 ::-webkit-scrollbar-thumb {
-  background: #4c573a;
+  background: #1d3fd7;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #606e48;
+  background: #2551eb;
 }
